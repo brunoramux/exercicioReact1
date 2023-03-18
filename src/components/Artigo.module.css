@@ -1,0 +1,19 @@
+.article {
+    display: flex;
+    background-color: var(--gray-800);
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.article + .article {
+    margin-top: 2rem;
+}
+
+.content {
+    line-height: 1.6;
+    padding: 0 0.5rem;
+}
+
+.article > img {
+    border-radius: 8px;
+}
